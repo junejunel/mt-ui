@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2973932 */
+  src: url('//at.alicdn.com/t/font_2973932_f8krlhainpi.woff2?t=1638264951159') format('woff2'),
+       url('//at.alicdn.com/t/font_2973932_f8krlhainpi.woff?t=1638264951159') format('woff'),
+       url('//at.alicdn.com/t/font_2973932_f8krlhainpi.ttf?t=1638264951159') format('truetype');
+}
+/* *= 意思是包含，即只要类名包含mt-icon-，就用下面的样式.
+   在button中用的时候 直接写mt-icon-xxx即可，省略这边的类名，
+   前提：图标前缀都改成mt-icon   
+*/
+[class*='mt-icon-'] {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mt-icon-yanjing:before {
+  content: "\e661";
+}
+
+.mt-icon-shanchu:before {
+  content: "\e603";
+}
+
+.mt-icon-close:before {
+  content: "\eca0";
+}
+.mt-icon-sousuo:before {
+  content: "\e651";
+}
+
+.mt-icon-shoucang:before {
+  content: "\e663";
+}
