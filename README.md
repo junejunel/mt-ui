@@ -6,23 +6,16 @@
 
 1. 安装
 ```javascript
-npm i mt-ui / yarn add mt-ui
+npm i mymt-ui / yarn add mymt-ui
 ```
 2. 全局注册
 ```javascript
-import MtUI from 'mt-ui'
+import MtUI from 'mymt-ui'
 Vue.use(MtUI)
 ```
-3. 按需导入
+3. 导入样式
 ```javascript
-import MtUI, { Button, Form } from 'mt-ui'
-Vue.use(MtUI, {
-  components: [Button, Form]
-})
-```
-4. 导入样式
-```javascript
-import 'mt-ui/dist/mt-ui.css'
+import 'mymt-ui/dist/mt-ui.css'
 ```
 -----------------
 

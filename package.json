@@ -1,8 +1,11 @@
 {
-  "name": "mt-ui",
-  "version": "0.1.0",
-  "private": true,
-  
+  "name": "mymt-ui",
+  "version": "0.1.2",
+  "private": false,
+  "main": "dist/mt-ui.umd.min.js",
+  "author": {
+    "name": "june"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
